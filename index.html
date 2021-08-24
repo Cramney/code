@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css">
+    <link rel="stylesheet" href="./2.css">
+    <link rel="stylesheet" href="./3.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="part1" class="part1">
+            <div id="left" class="left">
+                <li id="01"><a onmouseover= "mOver(this)" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>慕课网首页</a></li>
+                <li id="02"><a onmouseover= "mOver(this)" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>免费课</a></li>
+                <li id="03"><a onmouseover= "mOver(this)" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>实战课</a></li>
+                <li id="04"><a onmouseover= "mOver(this)" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>慕课课程</a></li>
+                <li id="05"><a onmouseover= "mOver(this)" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>专栏</a></li>
+                <li id="06"><a onmouseover= "mOver(this);" onmouseleave="mOut(this)" href="about:blank" style='text-decoration:none; color: #545c63;'>手记</a></li>
+                <input id="searchbox" type="text"  name="search" onclick="show()" />
+                <div id="search-box" style="display: none;" onmouseleave="disshow()">
+                    <li>半夜母猪频频惨叫</li>
+                    <li>人性扭曲道德沦丧</li>
+                    <li>我永远喜欢忍野忍</li>
+                </div>
+                <li>
+                    <a id="searchimg" onclick = "tap(this)">
+                        <img src="https://z3.ax1x.com/2021/08/22/hSgC4O.png" alt="hSgC4O.png"  />
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <script src="./1.js"></script>
+    <script src="./2.js"></script>
+    <script src="./3.js"></script>
+</body>
+
+</html>

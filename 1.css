@@ -1,0 +1,40 @@
+#part1{
+    list-style: none;
+    
+}
+#left{
+    padding: 0;
+    display: inline-flex;
+    margin-left: 12px;
+}
+.part1 .left li{
+    display: block;
+    font-size: 16px;
+    height: 63px;
+    line-height: 63px;
+    color: #545c63;
+    position: relative;
+    padding: 0 12px;
+    cursor:pointer;
+}
+#searchimg{
+    position: absolute;
+    left: 600px;
+}
+#searchbox{
+    padding-left: 0;
+    margin: 18px;
+    position: relative;
+    left: 500px;
+    opacity: 0;
+}
+#search-box {
+    width: 240px;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0 8px 16px 0 rgb(7 17 27 / 20%);
+    left: 988px;
+}
